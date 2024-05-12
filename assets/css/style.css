@@ -12,7 +12,7 @@
     url('../fonts/Raleway-Regular.ttf') format('truetype');
 
 
-  }
+}
 
 
 body{
@@ -27,14 +27,10 @@ body{
     flex-direction: column;
     font-weight: normal;
 
-    
 }
 
 
-
-
 /* Apport du style pour toute la balise header */
-
  header{
     background-color: #782221 ;
     display: flex;
@@ -45,6 +41,7 @@ body{
     font-family: "Lato", serif;
 
 }
+
 header figure img{
     background-color: white;
     width: 40%;
@@ -55,7 +52,6 @@ header figure img{
 header figure img:hover{
     cursor: zoom-in;
 }
-
 
 #profil{
     text-align: center;
@@ -68,9 +64,6 @@ header figure img:hover{
     width: 100%;
     
 }
-
-
-
 
 .contact__item{
     display: flex;
@@ -92,6 +85,7 @@ header figure img:hover{
     text-decoration: underline;
 }
 
+
 /* Devra chercher et trouver une autre méthode pour l'alignement de mes éléments */
 #contact__1{
     justify-content: flex-start;
@@ -105,8 +99,8 @@ header figure img:hover{
     justify-content: flex-end;
 }
 
-/* Style du main de la page */
 
+/* Style du main de la page */
 #main{
     display: flex;
     flex-direction: row;
@@ -115,8 +109,6 @@ header figure img:hover{
 
 
 /* Style pour les rubriques : A propos, langues parlées et centres d'intérêts */
-
-
 #left{
     display: flex;
     flex-direction: column;
@@ -126,6 +118,7 @@ header figure img:hover{
     padding-right: 5%;
 
 }
+
 .title__left{
     font-family: "Lato", serif;
     font-weight: bold;
@@ -140,12 +133,8 @@ header figure img:hover{
     padding-left: 15px;
 }
 
-/* ul{
-    line-height: 2; 
-} */
 
 /* Style pour les rubriques: Expériences professionnelles, diplômes/formations et compétences */
-
 #right{
     display: flex;
     flex-direction: column;
@@ -166,4 +155,29 @@ header figure img:hover{
 
 .hover:hover{
     border-right: 2px solid #782221;
+}
+
+
+/* Style pour le footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #782221;
+    align-items: center;
+    width: 100%;
+}
+
+footer figure{
+    display: flex;
+    justify-content: center;
+}
+
+
+footer figure img{
+    width: 5%;
+    margin: 8px;
+}
+
+footer figure img:hover{
+    opacity: 0.5;
 }
