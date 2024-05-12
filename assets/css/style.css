@@ -132,7 +132,7 @@ header figure img:hover{
     background-color: #dbc2a4;
     color: black;
     padding-left: 15px;
-    height: 25px;
+    height: 35px;
 }
 
 #indent{
@@ -144,4 +144,26 @@ header figure img:hover{
     line-height: 2; 
 } */
 
-/* Style pour les rubriques */
+/* Style pour les rubriques: Expériences professionnelles, diplômes/formations et compétences */
+
+#right{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-right: 1px solid black;
+    width: 100%;
+}
+
+.title__right{
+    font-family: "Lato", serif;
+    font-weight: bold;
+    background-color: #dbc2a4;
+    border-left: 5px solid #782221;
+    height: 35px;
+}
+
+.hover:hover{
+    border-right: 2px solid #782221;
+}
