@@ -24,12 +24,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     
 }
 
-.titre{
+.title{
     font-family: "Lato", serif;
+    font-weight: bold;
 }
 
 
@@ -52,6 +54,11 @@ header figure img{
     box-shadow: 0 0 15px antiquewhite;    
 }
 
+header figure img:hover{
+    cursor: zoom-in;
+}
+
+
 #profil{
     text-align: center;
 }
@@ -71,6 +78,7 @@ header figure img{
     display: flex;
     width: inherit;
     padding: 25px;
+    border: 2px solid red;
 
 
 }
@@ -80,11 +88,11 @@ header figure img{
     color: white;
     justify-self: start;
     font-style: italic;
-    text-decoration: none;
-    font-weight: lighter;
-    
-    
+    text-decoration: none;   
+}
 
+.contact__link:hover{
+    text-decoration: underline;
 }
 
 /* Devra chercher et trouver une autre méthode pour l'alignement de mes éléments */
