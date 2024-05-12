@@ -25,14 +25,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-weight: normal;
 
     
 }
 
-.title{
-    font-family: "Lato", serif;
-    font-weight: bold;
-}
+
 
 
 /* Apport du style pour toute la balise header */
@@ -78,7 +76,6 @@ header figure img:hover{
     display: flex;
     width: inherit;
     padding: 25px;
-    border: 2px solid red;
 
 
 }
@@ -108,3 +105,43 @@ header figure img:hover{
     justify-content: flex-end;
 }
 
+/* Style du main de la page */
+
+#main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+/* Style pour les rubriques : A propos, langues parlées et centres d'intérêts */
+
+
+#left{
+    display: flex;
+    flex-direction: column;
+    background-color: #782221;
+    max-width: 25%;
+    justify-content: left;
+    padding-right: 5%;
+
+}
+.title__left{
+    font-family: "Lato", serif;
+    font-weight: bold;
+    background-color: #dbc2a4;
+    color: black;
+    padding-left: 15px;
+    height: 25px;
+}
+
+#indent{
+    text-indent: 50px;
+    padding-left: 15px;
+}
+
+/* ul{
+    line-height: 2; 
+} */
+
+/* Style pour les rubriques */
