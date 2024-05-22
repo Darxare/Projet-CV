@@ -3,57 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CV en ligne</title>
+    <link rel="shortcut icon" href="./assets/pictures/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
 
     <!------------------------------------------------------------------------------- L'en-tête de ma page html -------------------------------------------------------------->
     <header>
-        <!-- Image de profil du CV -->
-        <section id="profil">
+        <section>
             <figure>
-                <a href="./assets/pictures/homme.png"><img src="./assets/pictures/homme.png" alt="BALTYDE DARRYL" ></a>
-                <h1>
-                    <figcaption>
+                <a href="./assets/pictures/photo.png"><img src="./assets/pictures/photo.png" alt="BALTYDE DARRYL" ></a>
+                
+                <figcaption>
                         BALTYDE DARRYL
-                    </figcaption>
-                </h1>
+                </figcaption>                
             </figure>
-            <br>
             <h2>Dévelopeur web Junior</h2>
-    </section>
-
-        <!-- Barre de contact -->
-        <section id="contact">
-
-            <p class="contact__item" id="contact__1">
-                <a href="https://www.google.com/maps/place/76+Rue+Michel+Ange,+75016+Paris/@48.8420826,2.2564856,17z/data=!3m1!4b1!4m6!3m5!1s0x47e67abea7907641:0xfce2740cd11c6051!8m2!3d48.8420826!4d2.2590659!16s%2Fg%2F11c43z03km?authuser=0&entry=ttu" class="contact__link" >76 rue Michel Ange <br>94270  Le Kremlin-bicÊtre</a>
-            </p>
-
-            <p class="contact__item" id="contact__2">
-                 <a href="mailto:daishibalshuu@gmail.com" class="contact__link" >daishibalshuu@gmail.com</a>
-            </p>
-
-            <p class="contact__item" id="contact__3">
-                <a href="tel:0607080910" class="contact__link" >0607080910</a>
-            </p>
-
         </section>
 
+        
+        <address>
+
+            <span class="address__item">
+                <a href="https://www.google.com/maps/place/76+Rue+Michel+Ange,+75016+Paris/@48.8420826,2.2564856,17z/data=!3m1!4b1!4m6!3m5!1s0x47e67abea7907641:0xfce2740cd11c6051!8m2!3d48.8420826!4d2.2590659!16s%2Fg%2F11c43z03km?authuser=0&entry=ttu" class="address__link" target="_blank" >76 rue Michel Ange <br>75016 Paris</a>
+            </span>
+
+            <span class="address__item">
+                 <a href="mailto:daishibalshuu@gmail.com" class="address__link" target="_blank" >daishibalshuu@gmail.com</a>
+            </span>
+
+            <span class="address__item">
+                <a href="tel:0607080910" class="address__link" target="_blank" >0607080910</a>
+            </span>
+
+        </address>
+
     </header>
+
+
     <!--------------------------------------------------------------- Le main de ma page html  --------------------------------------------------------------------------->
+    <main >
 
-    <!--Section avec les rubriques : A propos, Languages parlées et centre d'intérets -->
-    <section id="main">
+        <aside>
+            <h2>A propos</h2>
 
-        <section id="left">
-            <h2 class="title__left">A propos<br></h2>
+            <span id="indent">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus quam quis  aliquet vel lorem quis Sed maximus quam quis  aliquet vel lorem quis.</span>
+            
 
-            <p id="indent">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus quam quis  aliquet vel lorem quis Sed maximus quam quis  aliquet vel lorem quis.</p>
-            <br>
-
-            <h2 class="title__left">Langues parlées</h2>
+            <h2>Langues parlées</h2>
 
             <ul>
                 <li>
@@ -70,7 +69,7 @@
                 </li>
             </ul>
 
-            <h2 class="title__left">Centres d'intérêts</h2>
+            <h2>Centres d'intérêts</h2>
 
             <ul>
                 <li>
@@ -84,84 +83,102 @@
                 </li>
             </ul>
 
-        </section>
+        </aside>
 
         <!-- Section avec les rubriques : Expériences professionnelles, Diplômes/Formations et Compétences -->
-        <section id="right">
+        <section>
 
-            <h2 class="title__right">Expériences professionnelles</h2>
+            <h2>Expériences professionnelles</h2>
+            <article class="hover">
 
-            <h3 class="hover"> Stage en étant assistant informatique chez CAMA Renault (Baie-Mahault, Guadeloupe)</h3>
-            <p>Du 13 avril 2022 au 3 juin</p>
-            </p>
+                <h3> Stage en étant assistant informatique chez CAMA Renault (Baie-Mahault, Guadeloupe)</h3>
+                <span>Du <time datetime="2022-04-13"> 13 avril 2022</time> au <time datetime="2022-06-03"> 3 juin 2022</time></span>
 
-            <ul>
-                <li>
-                    Mise en place d'un nouveau système de surveillance des appareils technologiques
-                </li>
-                <li>
-                    Rédaction d'un cahier des charges en relation avec mon stage
-                </li>
-                <li>
-                    Mise en place et configuration de matèrielles informatique (ordinateur, vidéo-projecteur...)
-                </li>
+                <ul>
+                    <li>
+                        Mise en place d'un nouveau système de surveillance des appareils technologiques
+                    </li>
+                    <li>
+                        Rédaction d'un cahier des charges en relation avec mon stage
+                    </li>
+                    <li>
+                        Mise en place et configuration de matèrielles informatique (ordinateur, vidéo-projecteur...)
+                    </li>
 
-            </ul>
-
-            <h3 class="hover">Magasiner à Carrefour Destreland (Baie-Mahault, Guadeloupe)</h3>
-            <p>Du 1er juillet 2021 au 1er août 2021</p>
-            
-
-            <ul>
-                <li>
-                    Arrangement et préparation de rayons
-                </li>
-                <li>
-                    Aide aux clients
-                </li>
-                <li>
-                    Gérer le stocks de mon rayon
-                </li>
-
-            </ul>
+                </ul>
+            </article>
 
 
-            <h3 class="hover">Stage en étant assistant informatique aux lycée agricole de Convenance (Baie-Mahault, Guadeloupe)</h3>
-            <p>Du 1er janvier 2021 au 01 février 2021</p>
+            <article class="hover">
+                <h3>Magasiner à Carrefour Destreland (Baie-Mahault, Guadeloupe)</h3>
+                <span>Du <time datetime="2021-07-01"> 1er juillet 2021</time> au <time datetime="2021-08-01"> 1er août 2021</time></span>
+                
 
-            <ul>
-                <li>
-                    Aide aux élèves et aux personnels administratifs
-                </li>
-                <li>
-                    Aide à la configuration d'un nouveau réseau sur le lycée
-                </li>
-                <li>
-                    Représentation du système informatique du lycée
-                </li>
+                <ul>
+                    <li>
+                        Arrangement et préparation de rayons
+                    </li>
+                    <li>
+                        Aide aux clients
+                    </li>
+                    <li>
+                        Gérer le stocks de mon rayon
+                    </li>
 
-            </ul>
+                </ul>
+            </article>
 
-            
-            <h2 class="title__right">Diplômes/Formation</h2>
+            <article class="hover">
+                <h3 >Stage en étant assistant informatique aux lycée agricole de Convenance (Baie-Mahault, Guadeloupe)</h3>
+                <span>Du <time datetime="2021-01-01"> 1er janvier 2021</time> au <time datetime="2021-02-01"> 01 février 2021</time></span>
 
-            <h3 class="hover">Formation développeur web</h3>
-            <p>Du 28 février 2024 au 28 février 2027</p>
-            <p>Centre de Européen de Formation</p>
+                <ul>
+                    <li>
+                        Aide aux élèves et aux personnels administratifs
+                    </li>
+                    <li>
+                        Aide à la configuration d'un nouveau réseau sur le lycée
+                    </li>
+                    <li>
+                        Représentation du système informatique du lycée
+                    </li>
 
-
-            <h3 class="hover">Master 1 en informatique</h3>
-            <p>De 2021 à 2022</p>
-            <p>Université des Antilles</p>
-
-
-            <h3 class="hover">Licnece en informatique</h3>
-            <p>De 2019 à 2021</p>
-            <p>Université des Antilles</p>
+                </ul>
+            </article>
 
             
+            <h2>Diplômes/Formation</h2>
 
-            <h2  class="title__right">Compétences</h2>
+            <article class="hover">
+
+                <h3 >Formation développeur web</h3>
+                <span>Du<time datetime="2024-02-28"> 28 février 2024</time> au <time datetime="2027-02-28"> 28 février 2027</time></span>
+                <span>Centre de Européen de Formation</span>
+
+            </article>
+            
+
+            <article class="hover">
+
+                <h3>Master 1 en informatique</h3>
+                <span>De <time datetime="2021"> 2021</time> à <time datetime="2022"></time> 2022</span>
+                <span>Université des Antilles</span>
+
+            </article>
+            
+
+            <article class="hover">
+
+                <h3>Licence en informatique</h3>
+                <span>De <time datetime="2019"> 2019</time> à <time datetime="2021"> 2021</time></span>
+                <span>Université des Antilles</span>
+                
+            </article>
+            
+
+            
+
+            <h2>Compétences</h2>
             <ul>
                 <li class="hover">
                     HTML 5 - Intermédiaire
@@ -185,19 +202,21 @@
 
         </section>
 
-    </section>
+    </main>
 
     <!--------------------------------------------------- Le pied de page  de ma page html ------------------------------------------------------------------------->
-
-    <!-- Section avec les logos des réseaux sociaux et la date de la dernière modification -->
     <footer>
-        <figure>
-            <img src="./assets/pictures/linkedin.png" alt=" Logo Linkedin">
-            <img src="./assets/pictures/twitter.png" alt="Logo Twitter/X">
-            <img src="./assets/pictures/signe-github.png" alt="Logo Github">
-        </figure>
 
-        <p>Dernière mise à jour le 12 Mai 2024</p>
+        <div>
+            <a href="https://fr.linkedin.com" target="_blank"><img src="./assets/pictures/linkedin.png" alt=" Logo Linkedin"></a>
+            <a href="https://x.com" target="_blank"><img src="./assets/pictures/twitter.png" alt="Logo Twitter/X"></a>
+            <a href="https://github.com" target="_blank"><img src="./assets/pictures/github.png" alt="Logo Github"></a>
+            
+        </div>
+            
+        
+
+        <span>Dernière mise à jour le <time datetime="2024-05-22"> 22 mai 2024</time></span>
 
     </footer>    
 </body>
